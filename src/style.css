@@ -55,7 +55,7 @@ header {
     text-align: center;
     align-items: center;
     position: absolute;
-    top: 55%;
+    top: 50%;
 }
 
 .column {
@@ -67,29 +67,31 @@ header {
 
 .card {
     top:0;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .card-icon {
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 .card-title {
+    font-size: 0.9rem;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .card-body{
+    font-size: 0.8rem;
     text-transform: capitalize;
     text-align: center;
 }
 
 
 .section-banner h1 {
-    color: white;
+    color: rgb(211, 210, 210);
     font-size: 32px;
     margin-bottom: 30px;
     font-weight: bold;
@@ -239,5 +241,25 @@ nav {
         display: inline-block;
         width: 30%;
     }
-}
 
+    .section-rows {
+        top: 60%;
+    }
+
+    .card {
+        padding-bottom: 30px;
+    }
+    
+    .card-icon {
+        padding-bottom: 10px;
+    }
+    
+    .card-title {
+        font-size: 1rem;
+        padding-bottom: 15px;
+    }
+    
+    .card-body{
+        font-size: 1rem;
+    }
+}
